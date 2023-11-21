@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}
+nav img {
+  width: 30px;
+}
+nav ul {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a h4 {
+  font-weight: 200;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  z-index: 2;
+}
+.hero {
+  color: aliceblue;
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/5825599/pexels-photo-5825599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #000000b0;
+  display: flex;
+  align-items: center;
+  padding-left: 180px;
+}
+
+h1 {
+  width: 290px;
+  font-size: 35px;
+}
+.content p {
+  width: 350px;
+  font-size: 12px;
+  font-weight: 100;
+}
+.Features {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 180px;
+}
+.elements-culumn h2 {
+  font-size: 30px;
+}
+.elements-culumn p {
+  font-size: 12px;
+  color: #303030;
+}
+
+.line {
+  border-top: 2px solid #000;
+  width: 25px;
+  margin-top: 40px;
+}
+.culumn {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  gap: 16px;
+  width: 900px;
+}
+.culumn1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.culumn1 p {
+  color: rgb(36, 36, 36);
+  font-size: 12px;
+  line-height: 2;
+  color: #303030;
+}
+input {
+  border: none;
+  border-radius: 2px;
+  padding: 8px 10px;
+  width: 80px;
+  font-size: 10px;
+  background-color: black;
+  color: white;
+}
+
+.layouts {
+  color: aliceblue;
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/8784451/pexels-photo-8784451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=13");
+}
+.overlay1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 180px;
+  z-index: 10;
+  background-color: #000000b0;
+}
+.content-layouts {
+  display: flex;
+  flex-direction: column;
+}
+.line2 {
+  width: 30px;
+  border-top: 2px solid white;
+  margin-top: 40px;
+}
+.content-layouts h2 {
+  font-size: 30px;
+}
+.content-layouts p {
+  font-size: 12px;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  padding-top: 40px;
+}
+li img {
+  width: 100px;
+  height: 10px;
+}
+.stories {
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stories-header {
+  align-self: flex-start;
+}
+.stories h2 {
+  padding-top: 70px;
+  font-size: 30px;
+}
+.stories p {
+  font-size: 12px;
+  color: #303030;
+}
+.line3 {
+  width: 20px;
+  border-top: 2px solid rgb(0, 0, 0);
+  margin-top: 30px;
+}
+.stories-card img {
+  height: 190px;
+  width: 330px;
+}
+.stories-bot {
+  display: grid;
+  grid-template-columns: repeat(2, 330px);
+  gap: 40px 220px;
+  padding-top: 30px;
+  width: fit-content;
+}
+.upper-footer {
+  width: 100vw;
+  height: 20vh;
+  background: linear-gradient(to right, #006ed0, #02c6fa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.upper-footer p {
+  color: white;
+}
+.upper-footer input {
+  border: none;
+  border-radius: 2px;
+  padding: 8px 10px;
+  width: 80px;
+  font-size: 10px;
+  background-color: white;
+  color: black;
+}
+.upper-footer input:hover {
+  background-color: black;
+  color: white;
+}
+.lower-footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.lower-footer img {
+  width: 35px;
+}
+.lower-footer a {
+  color: white;
+}
+
+.lower-footer h5 {
+  font-family: "Oswald", sans-serif;
+}
+.lower-footer ul {
+  padding-top: 10px;
+}
